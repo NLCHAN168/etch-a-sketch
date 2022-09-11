@@ -1,0 +1,16 @@
+body {
+    display: flex;
+}
+
+div {
+    height: 6.25vh;
+    width: 6.25vh;
+    border-width: 1px;
+    border-color: black;
+}
+
+#canvas {
+    display: flex;
+    width: 100vh;
+    height: 100vh;
+}
