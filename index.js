@@ -18,6 +18,8 @@ function createCanvas() {
 
 createCanvas();
 addColors();
+console.log("ppp");
+console.log("xxxx");
 
 function addColors() {
   const grids = document.querySelectorAll(".r");
