@@ -24,7 +24,10 @@ function addColors() {
   grids.forEach((grid) =>
     grid.addEventListener(
       "mouseover",
-      () => (grid.style.backgroundColor = "black")
+      () =>
+        (grid.style.backgroundColor = `rgb(${1 + Math.random() * 255},
+          ${1 + Math.random() * 255},
+          ${1 + Math.random() * 255})`)
     )
   );
 }
