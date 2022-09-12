@@ -6,11 +6,11 @@ body {
     display: flex;
 }
 
-#row {
+.row {
     display: flex;
 }
 
-#r {
+.r {
     height: 6.25vh;
     width: 6.25vh;
     border-width: 1px;
