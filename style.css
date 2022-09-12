@@ -14,7 +14,7 @@ body {
     height: 6.25vh;
     width: 6.25vh;
     border-width: 1px;
-    border-style: solid;
+    border-style: dotted;
     border-color: black;
 }
 
