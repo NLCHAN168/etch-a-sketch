@@ -1,6 +1,21 @@
-let size = 16;
+var size = 16;
+const grid = document.createElement("div");
+const submit = document.createElement("button");
+submit.textContent = "Refresh";
+var x = document.createElement("INPUT");
+x.setAttribute("type", "text");
+x.setAttribute("id", "size");
+submit.addEventListener("click", () => {
+  size = document.getElementById("size").value;
+  container.innerHTML = "";
+  createCanvas();
+  addColors();
+});
 const container = document.createElement("div");
 container.setAttribute("id", "canvas");
+grid.appendChild(x);
+grid.appendChild(submit);
+document.body.appendChild(grid);
 document.body.appendChild(container);
 function createCanvas() {
   let count = 0;
@@ -18,8 +33,6 @@ function createCanvas() {
 
 createCanvas();
 addColors();
-console.log("ppp");
-console.log("xxxx");
 
 function addColors() {
   const grids = document.querySelectorAll(".r");
